@@ -1,17 +1,15 @@
 <?php
-  namespace TopItems\Providers;
+
+namespace TopItems\Providers;
 
 
-  use Plenty\Plugin\ServiceProvider;
+use Plenty\Plugin\ServiceProvider;
 
-  class TopItemsServiceProvider extends ServiceProvider
-  {
-
+class TopItemsServiceProvider extends ServiceProvider
+{
     public function register()
     {
-      // Registering the RouteServiceProvider
-      $this->getApplication()->register(TopItemsRouteServiceProvider::class);
+        $this->getApplication()->register(TopItemsRouteServiceProvider::class);
     }
-  }
-
+}
  ?>
