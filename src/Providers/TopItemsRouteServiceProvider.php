@@ -13,5 +13,4 @@ class TopItemsRouteServiceProvider extends RouteServiceProvider
         $router->get('topitems', 'TopItems\Controllers\ContentController@showTopItems');
     }
 }
-
  ?>
